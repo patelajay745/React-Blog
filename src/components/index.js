@@ -10,4 +10,26 @@ import Logo from "./Logo";
 
 import Button from "./Button";
 
-export { Header, Footer, Container, LogoutBtn, Logo, Button };
+import Input from "./input";
+
+import Login from "./Login";
+
+import PostCard from "./PostCard";
+
+import SignUp from "./SignUp";
+
+import Protected from "./Authlayout";
+
+export {
+  Header,
+  Footer,
+  Container,
+  LogoutBtn,
+  Logo,
+  Button,
+  Input,
+  Login,
+  PostCard,
+  SignUp,
+  Protected,
+};
