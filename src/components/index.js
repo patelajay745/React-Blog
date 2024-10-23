@@ -20,6 +20,8 @@ import SignUp from "./SignUp";
 
 import Protected from "./Authlayout";
 
+import RTE from "./RTE";
+
 export {
   Header,
   Footer,
@@ -32,4 +34,5 @@ export {
   PostCard,
   SignUp,
   Protected,
+  RTE,
 };
