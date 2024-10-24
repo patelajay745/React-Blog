@@ -3,14 +3,14 @@ import { login as storeLogin } from "../store/authSlice";
 import authService from "../appwrite/auth";
 
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { Logo, Input, Button } from ".";
 
 function Login() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { register, handlSubmit } = useForm();
+  const { register, handleSubmit } = useForm();
   const [error, setError] = useState("");
 
   const login = async (data) => {
@@ -53,7 +53,7 @@ function Login() {
 
         {error && <p className="text-red-600 mt-8 text-center">{error}</p>}
 
-        <form onSubmit={handlSubmit(login)} className="mt-8">
+        <form onSubmit={handleSubmit(login)} className="mt-8">
           {" "}
           <div className="space-y-5">
             <Input
