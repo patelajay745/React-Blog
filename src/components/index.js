@@ -22,6 +22,8 @@ import Protected from "./Authlayout";
 
 import RTE from "./RTE";
 
+import PostForm from "./Post-form/PostForm";
+
 export {
   Header,
   Footer,
@@ -35,4 +37,5 @@ export {
   SignUp,
   Protected,
   RTE,
+  PostForm,
 };
