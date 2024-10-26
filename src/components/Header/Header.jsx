@@ -43,7 +43,10 @@ function Header() {
         <nav className="flex">
           <div className="mr-4">
             <Link to="/">
-              <Logo width="70px" />
+              <Logo
+                width="40px"
+                src="https://www.freeiconspng.com/uploads/blogger-logo-icon-png-2.png"
+              />
             </Link>
           </div>
 

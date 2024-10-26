@@ -4,7 +4,7 @@ function Select({ options, labels, className = "", ...props }, ref) {
   const id = useId;
   return (
     <div className="w-full">
-      {label && <label htmlFor={id} className=""></label>}
+      {labels && <label htmlFor={id} className=""></label>}
       <select
         {...props}
         id={id}

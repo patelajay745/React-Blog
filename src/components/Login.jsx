@@ -17,7 +17,7 @@ function Login() {
     setError("");
     console.log("data sent by hook form", data);
     try {
-      await authService.login(data);
+      const session = await authService.login(data);
 
       if (session) {
         const userData = await authService.getCurrentUser();

@@ -24,6 +24,8 @@ import RTE from "./RTE";
 
 import PostForm from "./Post-form/PostForm";
 
+import Select from "./Select";
+
 export {
   Header,
   Footer,
@@ -38,4 +40,5 @@ export {
   Protected,
   RTE,
   PostForm,
+  Select,
 };
